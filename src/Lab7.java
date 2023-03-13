@@ -8,11 +8,11 @@ public class Lab7 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        Calculator calc = new Calculator();
+        Calculator Сalc1 = new Calculator();
 
-        double y1 = calc.calc1(x);
-        double y2 = calc.calc2(a, b);
-        double y3 = calc.calc3(a, x, b);
+        double y1 = Сalc1.calc1(x);
+        double y2 = Сalc1.calc2(a, b);
+        double y3 = Сalc1.calc3(a, x, b);
 
         System.out.println("Значение выражения 1: " + y1);
         System.out.println("Значение выражения 2: " + y2);
