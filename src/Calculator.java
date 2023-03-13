@@ -7,7 +7,7 @@ public class Calculator {
 
     public double calc2(double a, double b) {
         if (a-b ==0){
-            System.out.println("Ошибка во 2 методе: Нельзя делить на 0");
+            System.out.println("Ошибка в calc2: Нельзя делить на 0");
             return -1;
         }
         else{
@@ -22,7 +22,7 @@ public class Calculator {
         }
         return result;}
         else{
-            System.out.println("Ошибка в 3 методе: Нельзя делить на 0");
+            System.out.println("Ошибка в calc3: Нельзя делить на 0");
             return -1;
         }
 
